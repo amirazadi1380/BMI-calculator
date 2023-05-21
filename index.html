@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timer">
+        <span id="seconds">00</span>
+    </div>
+    <input type="checkbox" id="dark-mode" > dark mode
+     <div class="bmi-list">
+        <img src="/BMIg.jpg" id="ax">
+    </div>
+<div class="bmi-container">
+    <div class="title">
+        <h1>BMI application</h1>
+    </div>
+    <div class="main">
+       
+        <div class="inputs">
+            <input type="text" placeholder="please enter your weight(kg)" id="weightInput">
+            <input type="text" placeholder="please enter your height(m)" id="heightInput">
+        </div>
+        <button id="submit">submit</button>
+        
+        <dialog id="modal">
+            <h1>your BMI is : <span id="result"></span></h1>
+       
+            <button id="restart">reset</button>
+        </dialog>
+       
+        
+    </div>
+</div>
+
+   <script src="app.js"></script> 
+</body>
+</html>

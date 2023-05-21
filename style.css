@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: yellow;
+    background-color: rgb(82, 37, 37);
+    height: 100vh;
+    align-items: center;
+    position: relative;
+}
+.bmi-container{
+    background-color: rgb(97, 51, 51);
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 20px rgb(34, 15, 15);
+    position: relative;
+}
+.title{
+   background-color: rgb(68, 52, 52);
+   border-radius:10px ;
+    width: 100%;
+    height: 70px;
+    padding-top: 2px;
+    margin-bottom: 10px;
+   
+}
+.buttons{
+    border-bottom: 1px solid yellow;
+    padding: 5px 0;
+    cursor: pointer;
+    
+}
+.inputs input{
+    display: block;
+    margin: 20px 160px;
+    text-align: center;
+    border-radius: 7px;
+    border: none;
+    padding: 7px 2px;
+   background-color: rgb(82, 73, 71);
+    color: yellow;
+
+}
+.inputs input:hover{
+    transition: .5s;
+    transform: scale(1.2);
+}
+#submit{
+    background-color: yellow;
+    padding: 10px 12px;
+    color: black;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid rgb(112, 89, 89);
+    cursor: pointer;
+}
+#submit:hover{
+    transition: .5s;
+    transform: scale(1.2);
+}
+#modal{
+    width: 570px;
+    border: 2px solid rgb(41, 43, 35);
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 290px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+#result{
+    color:red;
+}
+#restart{
+    background-color: rgb(146, 120, 120);
+   border: none;
+   font-weight: 700;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: rgb(31, 25, 25);
+    border-radius: 5px;
+}
+#ax{
+    width: 280px;
+    border-radius: 15px;
+    display: block;
+    margin-left: 50px;
+    position: absolute;
+    top: 0;
+    left: 47%;
+    transform: translate(-50%);
+}
+.timer{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
