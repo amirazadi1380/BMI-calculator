@@ -33,7 +33,7 @@ mySubmit.addEventListener('click', () =>{
 
   if(bmi > 35){
     myModal.showModal()
-    myResult.textContent = bmi + " ,you fat too fuck"
+    myResult.textContent = bmi + " ,you are too fat"
     myClose.addEventListener('click',() =>{
     location.reload()
  })
